@@ -23,4 +23,5 @@ jobs:
           parse_key: ${{ secrets.PARSE_KEY }} # if run.py requires passwords..etc, set it as secrets
           Prooo: ${{ secrets.PROOO }} # if run.py requires passwords..etc, set it as secrets
           Pissssss: ${{ secrets.Pissssss }} # if run.py requires passwords..etc, set it as secrets
+          Hoo: ${{ secrets.hoo }} # if run.py requires passwords..etc, set it as secrets
           
