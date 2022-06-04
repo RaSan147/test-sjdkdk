@@ -20,4 +20,7 @@ jobs:
           python parser.file
 
         env:
-          key: ${{ secrets.key }} # if run.py requires passwords..etc, set it as secrets
+          Parse_key: ${{ secrets.PARSE_KEY }} # if run.py requires passwords..etc, set it as secrets
+          Prooo: ${{ secrets.PROOO }} # if run.py requires passwords..etc, set it as secrets
+          Pissssss: ${{ secrets.Pissssss }} # if run.py requires passwords..etc, set it as secrets
+          
