@@ -1,0 +1,23 @@
+name: Python package
+
+on: [dispatch]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v3
+        with:
+              python-version: 3.8 #install the python needed
+      - name: Run system
+        run: |
+          python -m pip install --upgrade pip
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+         python parser.file
+
+        env:
+              key: ${{ secrets.key }} # if run.py requires passwords..etc, set it as secrets
