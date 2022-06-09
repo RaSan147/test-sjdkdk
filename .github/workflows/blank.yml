@@ -30,7 +30,7 @@ jobs:
 
   build2:
     needs: build1
-    if: ${{ always() }}
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
 
     steps:
@@ -53,7 +53,7 @@ jobs:
           
   build3:
     needs: build2
-    if: ${{ always() }}
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
 
     steps:
@@ -76,7 +76,7 @@ jobs:
           
   build4:
     needs: build3
-    if: ${{ always() }}
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
 
     steps:
@@ -99,7 +99,7 @@ jobs:
           
   build5:
     needs: build4
-    if: ${{ always() }}
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
 
     steps:
@@ -122,7 +122,7 @@ jobs:
           
   build6:
     needs: build5
-    if: ${{ always() }}
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
 
     steps:
@@ -145,7 +145,7 @@ jobs:
           
   build7:
     needs: build6
-    if: ${{ always() }}
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
 
     steps:
@@ -168,7 +168,7 @@ jobs:
           
   build8:
     needs: build7
-    if: ${{ always() }}
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
 
     steps:
@@ -191,7 +191,7 @@ jobs:
           
   build9:
     needs: build8
-    if: ${{ always() }}
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
 
     steps:
@@ -214,7 +214,7 @@ jobs:
           
   build10:
     needs: build9
-    if: ${{ always() }}
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
 
     steps:
@@ -237,7 +237,7 @@ jobs:
           
   build11:
     needs: build10
-    if: ${{ always() }}
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
 
     steps:
@@ -260,7 +260,7 @@ jobs:
           
   build12:
     needs: build11
-    if: ${{ always() }}
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
 
     steps:
@@ -283,7 +283,7 @@ jobs:
           
   build13:
     needs: build12
-    if: ${{ always() }}
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
 
     steps:
@@ -306,7 +306,7 @@ jobs:
           
   build14:
     needs: build13
-    if: ${{ always() }}
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
 
     steps:
@@ -329,7 +329,7 @@ jobs:
           
   build15:
     needs: build14
-    if: ${{ always() }}
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
 
     steps:
@@ -352,7 +352,7 @@ jobs:
           
   build16:
     needs: build15
-    if: ${{ always() }}
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
 
     steps:
@@ -375,7 +375,7 @@ jobs:
           
   build17:
     needs: build16
-    if: ${{ always() }}
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
 
     steps:
@@ -398,7 +398,7 @@ jobs:
           
   build18:
     needs: build17
-    if: ${{ always() }}
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
 
     steps:
@@ -421,7 +421,7 @@ jobs:
           
   build19:
     needs: build18
-    if: ${{ always() }}
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
 
     steps:
@@ -444,7 +444,7 @@ jobs:
           
   build20:
     needs: build19
-    if: ${{ always() }}
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
 
     steps:
@@ -467,7 +467,7 @@ jobs:
           
   build21:
     needs: build20
-    if: ${{ always() }}
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
 
     steps:
@@ -490,7 +490,7 @@ jobs:
           
   build22:
     needs: build21
-    if: ${{ always() }}
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
 
     steps:
@@ -513,7 +513,7 @@ jobs:
           
   build23:
     needs: build22
-    if: ${{ always() }}
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
 
     steps:
@@ -536,7 +536,7 @@ jobs:
           
   build24:
     needs: build23
-    if: ${{ always() }}
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
 
     steps:
@@ -559,7 +559,7 @@ jobs:
           
   build25:
     needs: build24
-    if: ${{ always() }}
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
 
     steps:
@@ -582,7 +582,7 @@ jobs:
           
   build26:
     needs: build25
-    if: ${{ always() }}
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
 
     steps:
@@ -605,7 +605,7 @@ jobs:
           
   build27:
     needs: build26
-    if: ${{ always() }}
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
 
     steps:
@@ -628,7 +628,7 @@ jobs:
           
   build28:
     needs: build27
-    if: ${{ always() }}
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
 
     steps:
