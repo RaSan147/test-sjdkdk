@@ -14,11 +14,11 @@ jobs:
       - name: Set up Python 3.8
         uses: actions/setup-python@v3
         with:
-          python-version: "3.8"
+          python-version: "3.10"
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
           python parser.file
 
         env:
@@ -38,11 +38,11 @@ jobs:
       - name: Set up Python 3.8
         uses: actions/setup-python@v3
         with:
-          python-version: "3.8"
+          python-version: "3.10"
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
           python parser.file
 
         env:
@@ -61,11 +61,11 @@ jobs:
       - name: Set up Python 3.8
         uses: actions/setup-python@v3
         with:
-          python-version: "3.8"
+          python-version: "3.10"
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
           python parser.file
 
         env:
@@ -84,11 +84,11 @@ jobs:
       - name: Set up Python 3.8
         uses: actions/setup-python@v3
         with:
-          python-version: "3.8"
+          python-version: "3.10"
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
           python parser.file
 
         env:
@@ -107,11 +107,11 @@ jobs:
       - name: Set up Python 3.8
         uses: actions/setup-python@v3
         with:
-          python-version: "3.8"
+          python-version: "3.10"
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
           python parser.file
 
         env:
@@ -130,11 +130,11 @@ jobs:
       - name: Set up Python 3.8
         uses: actions/setup-python@v3
         with:
-          python-version: "3.8"
+          python-version: "3.10"
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
           python parser.file
 
         env:
@@ -153,11 +153,11 @@ jobs:
       - name: Set up Python 3.8
         uses: actions/setup-python@v3
         with:
-          python-version: "3.8"
+          python-version: "3.10"
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
           python parser.file
 
         env:
@@ -176,11 +176,11 @@ jobs:
       - name: Set up Python 3.8
         uses: actions/setup-python@v3
         with:
-          python-version: "3.8"
+          python-version: "3.10"
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
           python parser.file
 
         env:
@@ -199,11 +199,11 @@ jobs:
       - name: Set up Python 3.8
         uses: actions/setup-python@v3
         with:
-          python-version: "3.8"
+          python-version: "3.10"
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
           python parser.file
 
         env:
@@ -222,11 +222,11 @@ jobs:
       - name: Set up Python 3.8
         uses: actions/setup-python@v3
         with:
-          python-version: "3.8"
+          python-version: "3.10"
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
           python parser.file
 
         env:
@@ -245,11 +245,11 @@ jobs:
       - name: Set up Python 3.8
         uses: actions/setup-python@v3
         with:
-          python-version: "3.8"
+          python-version: "3.10"
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
           python parser.file
 
         env:
@@ -268,11 +268,11 @@ jobs:
       - name: Set up Python 3.8
         uses: actions/setup-python@v3
         with:
-          python-version: "3.8"
+          python-version: "3.10"
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
           python parser.file
 
         env:
@@ -291,11 +291,11 @@ jobs:
       - name: Set up Python 3.8
         uses: actions/setup-python@v3
         with:
-          python-version: "3.8"
+          python-version: "3.10"
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
           python parser.file
 
         env:
@@ -314,11 +314,11 @@ jobs:
       - name: Set up Python 3.8
         uses: actions/setup-python@v3
         with:
-          python-version: "3.8"
+          python-version: "3.10"
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
           python parser.file
 
         env:
@@ -337,11 +337,11 @@ jobs:
       - name: Set up Python 3.8
         uses: actions/setup-python@v3
         with:
-          python-version: "3.8"
+          python-version: "3.10"
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
           python parser.file
 
         env:
@@ -360,11 +360,11 @@ jobs:
       - name: Set up Python 3.8
         uses: actions/setup-python@v3
         with:
-          python-version: "3.8"
+          python-version: "3.10"
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
           python parser.file
 
         env:
@@ -383,11 +383,11 @@ jobs:
       - name: Set up Python 3.8
         uses: actions/setup-python@v3
         with:
-          python-version: "3.8"
+          python-version: "3.10"
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
           python parser.file
 
         env:
@@ -406,11 +406,11 @@ jobs:
       - name: Set up Python 3.8
         uses: actions/setup-python@v3
         with:
-          python-version: "3.8"
+          python-version: "3.10"
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
           python parser.file
 
         env:
@@ -429,11 +429,11 @@ jobs:
       - name: Set up Python 3.8
         uses: actions/setup-python@v3
         with:
-          python-version: "3.8"
+          python-version: "3.10"
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
           python parser.file
 
         env:
@@ -452,11 +452,11 @@ jobs:
       - name: Set up Python 3.8
         uses: actions/setup-python@v3
         with:
-          python-version: "3.8"
+          python-version: "3.10"
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
           python parser.file
 
         env:
@@ -475,11 +475,11 @@ jobs:
       - name: Set up Python 3.8
         uses: actions/setup-python@v3
         with:
-          python-version: "3.8"
+          python-version: "3.10"
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
           python parser.file
 
         env:
@@ -498,11 +498,11 @@ jobs:
       - name: Set up Python 3.8
         uses: actions/setup-python@v3
         with:
-          python-version: "3.8"
+          python-version: "3.10"
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
           python parser.file
 
         env:
@@ -521,11 +521,11 @@ jobs:
       - name: Set up Python 3.8
         uses: actions/setup-python@v3
         with:
-          python-version: "3.8"
+          python-version: "3.10"
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
           python parser.file
 
         env:
@@ -544,11 +544,11 @@ jobs:
       - name: Set up Python 3.8
         uses: actions/setup-python@v3
         with:
-          python-version: "3.8"
+          python-version: "3.10"
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
           python parser.file
 
         env:
@@ -567,11 +567,11 @@ jobs:
       - name: Set up Python 3.8
         uses: actions/setup-python@v3
         with:
-          python-version: "3.8"
+          python-version: "3.10"
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
           python parser.file
 
         env:
@@ -590,11 +590,11 @@ jobs:
       - name: Set up Python 3.8
         uses: actions/setup-python@v3
         with:
-          python-version: "3.8"
+          python-version: "3.10"
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
           python parser.file
 
         env:
@@ -613,11 +613,11 @@ jobs:
       - name: Set up Python 3.8
         uses: actions/setup-python@v3
         with:
-          python-version: "3.8"
+          python-version: "3.10"
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
           python parser.file
 
         env:
@@ -636,11 +636,11 @@ jobs:
       - name: Set up Python 3.8
         uses: actions/setup-python@v3
         with:
-          python-version: "3.8"
+          python-version: "3.10"
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
           python parser.file
 
         env:
