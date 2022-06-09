@@ -3,10 +3,10 @@ name: Python package
 on: 
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 */7 * *"
 
 jobs:
-  build:
+  build1:
     runs-on: ubuntu-latest
 
     steps:
@@ -29,7 +29,7 @@ jobs:
           
 
   build2:
-    needs: build
+    needs: build1
     if: ${{ always() }}
     runs-on: ubuntu-latest
 
@@ -46,14 +46,13 @@ jobs:
           python parser.file
 
         env:
-          parse_key: ${{ secrets.PARSE_KEY }} # if run.py requires passwords..etc, set it as secrets
-          Prooo: ${{ secrets.PROOO }} # if run.py requires passwords..etc, set it as secrets
-          Pissssss: ${{ secrets.Pissssss }} # if run.py requires passwords..etc, set it as secrets
-          Hoo: ${{ secrets.hoo }} # if run.py requires passwords..etc, set it as secrets
+          parse_key: ${{ secrets.PARSE_KEY }}
+          Prooo: ${{ secrets.PROOO }}
+          Pissssss: ${{ secrets.Pissssss }}
+          Hoo: ${{ secrets.hoo }}
           
-
   build3:
-    needs: [build, build2]
+    needs: build2
     if: ${{ always() }}
     runs-on: ubuntu-latest
 
@@ -70,14 +69,13 @@ jobs:
           python parser.file
 
         env:
-          parse_key: ${{ secrets.PARSE_KEY }} # if run.py requires passwords..etc, set it as secrets
-          Prooo: ${{ secrets.PROOO }} # if run.py requires passwords..etc, set it as secrets
-          Pissssss: ${{ secrets.Pissssss }} # if run.py requires passwords..etc, set it as secrets
-          Hoo: ${{ secrets.hoo }} # if run.py requires passwords..etc, set it as secrets
+          parse_key: ${{ secrets.PARSE_KEY }}
+          Prooo: ${{ secrets.PROOO }}
+          Pissssss: ${{ secrets.Pissssss }}
+          Hoo: ${{ secrets.hoo }}
           
-
   build4:
-    needs: [build, build2, build3]
+    needs: build3
     if: ${{ always() }}
     runs-on: ubuntu-latest
 
@@ -94,9 +92,560 @@ jobs:
           python parser.file
 
         env:
-          parse_key: ${{ secrets.PARSE_KEY }} # if run.py requires passwords..etc, set it as secrets
-          Prooo: ${{ secrets.PROOO }} # if run.py requires passwords..etc, set it as secrets
-          Pissssss: ${{ secrets.Pissssss }} # if run.py requires passwords..etc, set it as secrets
-          Hoo: ${{ secrets.hoo }} # if run.py requires passwords..etc, set it as secrets
+          parse_key: ${{ secrets.PARSE_KEY }}
+          Prooo: ${{ secrets.PROOO }}
+          Pissssss: ${{ secrets.Pissssss }}
+          Hoo: ${{ secrets.hoo }}
           
+  build5:
+    needs: build4
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
 
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.8"
+      - name: Run system
+        run: |
+          python -m pip install --upgrade pip
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          python parser.file
+
+        env:
+          parse_key: ${{ secrets.PARSE_KEY }}
+          Prooo: ${{ secrets.PROOO }}
+          Pissssss: ${{ secrets.Pissssss }}
+          Hoo: ${{ secrets.hoo }}
+          
+  build6:
+    needs: build5
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.8"
+      - name: Run system
+        run: |
+          python -m pip install --upgrade pip
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          python parser.file
+
+        env:
+          parse_key: ${{ secrets.PARSE_KEY }}
+          Prooo: ${{ secrets.PROOO }}
+          Pissssss: ${{ secrets.Pissssss }}
+          Hoo: ${{ secrets.hoo }}
+          
+  build7:
+    needs: build6
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.8"
+      - name: Run system
+        run: |
+          python -m pip install --upgrade pip
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          python parser.file
+
+        env:
+          parse_key: ${{ secrets.PARSE_KEY }}
+          Prooo: ${{ secrets.PROOO }}
+          Pissssss: ${{ secrets.Pissssss }}
+          Hoo: ${{ secrets.hoo }}
+          
+  build8:
+    needs: build7
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.8"
+      - name: Run system
+        run: |
+          python -m pip install --upgrade pip
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          python parser.file
+
+        env:
+          parse_key: ${{ secrets.PARSE_KEY }}
+          Prooo: ${{ secrets.PROOO }}
+          Pissssss: ${{ secrets.Pissssss }}
+          Hoo: ${{ secrets.hoo }}
+          
+  build9:
+    needs: build8
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.8"
+      - name: Run system
+        run: |
+          python -m pip install --upgrade pip
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          python parser.file
+
+        env:
+          parse_key: ${{ secrets.PARSE_KEY }}
+          Prooo: ${{ secrets.PROOO }}
+          Pissssss: ${{ secrets.Pissssss }}
+          Hoo: ${{ secrets.hoo }}
+          
+  build10:
+    needs: build9
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.8"
+      - name: Run system
+        run: |
+          python -m pip install --upgrade pip
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          python parser.file
+
+        env:
+          parse_key: ${{ secrets.PARSE_KEY }}
+          Prooo: ${{ secrets.PROOO }}
+          Pissssss: ${{ secrets.Pissssss }}
+          Hoo: ${{ secrets.hoo }}
+          
+  build11:
+    needs: build10
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.8"
+      - name: Run system
+        run: |
+          python -m pip install --upgrade pip
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          python parser.file
+
+        env:
+          parse_key: ${{ secrets.PARSE_KEY }}
+          Prooo: ${{ secrets.PROOO }}
+          Pissssss: ${{ secrets.Pissssss }}
+          Hoo: ${{ secrets.hoo }}
+          
+  build12:
+    needs: build11
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.8"
+      - name: Run system
+        run: |
+          python -m pip install --upgrade pip
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          python parser.file
+
+        env:
+          parse_key: ${{ secrets.PARSE_KEY }}
+          Prooo: ${{ secrets.PROOO }}
+          Pissssss: ${{ secrets.Pissssss }}
+          Hoo: ${{ secrets.hoo }}
+          
+  build13:
+    needs: build12
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.8"
+      - name: Run system
+        run: |
+          python -m pip install --upgrade pip
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          python parser.file
+
+        env:
+          parse_key: ${{ secrets.PARSE_KEY }}
+          Prooo: ${{ secrets.PROOO }}
+          Pissssss: ${{ secrets.Pissssss }}
+          Hoo: ${{ secrets.hoo }}
+          
+  build14:
+    needs: build13
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.8"
+      - name: Run system
+        run: |
+          python -m pip install --upgrade pip
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          python parser.file
+
+        env:
+          parse_key: ${{ secrets.PARSE_KEY }}
+          Prooo: ${{ secrets.PROOO }}
+          Pissssss: ${{ secrets.Pissssss }}
+          Hoo: ${{ secrets.hoo }}
+          
+  build15:
+    needs: build14
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.8"
+      - name: Run system
+        run: |
+          python -m pip install --upgrade pip
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          python parser.file
+
+        env:
+          parse_key: ${{ secrets.PARSE_KEY }}
+          Prooo: ${{ secrets.PROOO }}
+          Pissssss: ${{ secrets.Pissssss }}
+          Hoo: ${{ secrets.hoo }}
+          
+  build16:
+    needs: build15
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.8"
+      - name: Run system
+        run: |
+          python -m pip install --upgrade pip
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          python parser.file
+
+        env:
+          parse_key: ${{ secrets.PARSE_KEY }}
+          Prooo: ${{ secrets.PROOO }}
+          Pissssss: ${{ secrets.Pissssss }}
+          Hoo: ${{ secrets.hoo }}
+          
+  build17:
+    needs: build16
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.8"
+      - name: Run system
+        run: |
+          python -m pip install --upgrade pip
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          python parser.file
+
+        env:
+          parse_key: ${{ secrets.PARSE_KEY }}
+          Prooo: ${{ secrets.PROOO }}
+          Pissssss: ${{ secrets.Pissssss }}
+          Hoo: ${{ secrets.hoo }}
+          
+  build18:
+    needs: build17
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.8"
+      - name: Run system
+        run: |
+          python -m pip install --upgrade pip
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          python parser.file
+
+        env:
+          parse_key: ${{ secrets.PARSE_KEY }}
+          Prooo: ${{ secrets.PROOO }}
+          Pissssss: ${{ secrets.Pissssss }}
+          Hoo: ${{ secrets.hoo }}
+          
+  build19:
+    needs: build18
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.8"
+      - name: Run system
+        run: |
+          python -m pip install --upgrade pip
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          python parser.file
+
+        env:
+          parse_key: ${{ secrets.PARSE_KEY }}
+          Prooo: ${{ secrets.PROOO }}
+          Pissssss: ${{ secrets.Pissssss }}
+          Hoo: ${{ secrets.hoo }}
+          
+  build20:
+    needs: build19
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.8"
+      - name: Run system
+        run: |
+          python -m pip install --upgrade pip
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          python parser.file
+
+        env:
+          parse_key: ${{ secrets.PARSE_KEY }}
+          Prooo: ${{ secrets.PROOO }}
+          Pissssss: ${{ secrets.Pissssss }}
+          Hoo: ${{ secrets.hoo }}
+          
+  build21:
+    needs: build20
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.8"
+      - name: Run system
+        run: |
+          python -m pip install --upgrade pip
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          python parser.file
+
+        env:
+          parse_key: ${{ secrets.PARSE_KEY }}
+          Prooo: ${{ secrets.PROOO }}
+          Pissssss: ${{ secrets.Pissssss }}
+          Hoo: ${{ secrets.hoo }}
+          
+  build22:
+    needs: build21
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.8"
+      - name: Run system
+        run: |
+          python -m pip install --upgrade pip
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          python parser.file
+
+        env:
+          parse_key: ${{ secrets.PARSE_KEY }}
+          Prooo: ${{ secrets.PROOO }}
+          Pissssss: ${{ secrets.Pissssss }}
+          Hoo: ${{ secrets.hoo }}
+          
+  build23:
+    needs: build22
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.8"
+      - name: Run system
+        run: |
+          python -m pip install --upgrade pip
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          python parser.file
+
+        env:
+          parse_key: ${{ secrets.PARSE_KEY }}
+          Prooo: ${{ secrets.PROOO }}
+          Pissssss: ${{ secrets.Pissssss }}
+          Hoo: ${{ secrets.hoo }}
+          
+  build24:
+    needs: build23
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.8"
+      - name: Run system
+        run: |
+          python -m pip install --upgrade pip
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          python parser.file
+
+        env:
+          parse_key: ${{ secrets.PARSE_KEY }}
+          Prooo: ${{ secrets.PROOO }}
+          Pissssss: ${{ secrets.Pissssss }}
+          Hoo: ${{ secrets.hoo }}
+          
+  build25:
+    needs: build24
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.8"
+      - name: Run system
+        run: |
+          python -m pip install --upgrade pip
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          python parser.file
+
+        env:
+          parse_key: ${{ secrets.PARSE_KEY }}
+          Prooo: ${{ secrets.PROOO }}
+          Pissssss: ${{ secrets.Pissssss }}
+          Hoo: ${{ secrets.hoo }}
+          
+  build26:
+    needs: build25
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.8"
+      - name: Run system
+        run: |
+          python -m pip install --upgrade pip
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          python parser.file
+
+        env:
+          parse_key: ${{ secrets.PARSE_KEY }}
+          Prooo: ${{ secrets.PROOO }}
+          Pissssss: ${{ secrets.Pissssss }}
+          Hoo: ${{ secrets.hoo }}
+          
+  build27:
+    needs: build26
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.8"
+      - name: Run system
+        run: |
+          python -m pip install --upgrade pip
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          python parser.file
+
+        env:
+          parse_key: ${{ secrets.PARSE_KEY }}
+          Prooo: ${{ secrets.PROOO }}
+          Pissssss: ${{ secrets.Pissssss }}
+          Hoo: ${{ secrets.hoo }}
+          
+  build28:
+    needs: build27
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.8"
+      - name: Run system
+        run: |
+          python -m pip install --upgrade pip
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/42276338b12706e671d9d7644dc30f35ffb5e9e6.zip instaloader
+          python parser.file
+
+        env:
+          parse_key: ${{ secrets.PARSE_KEY }}
+          Prooo: ${{ secrets.PROOO }}
+          Pissssss: ${{ secrets.Pissssss }}
+          Hoo: ${{ secrets.hoo }}
+          
