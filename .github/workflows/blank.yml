@@ -18,7 +18,7 @@ jobs:
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/460aaf8bb610733f8da2e015a48729353ce0fb88.zip instaloader requests pillow
           python parser.file
 
         env:
@@ -42,7 +42,7 @@ jobs:
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/460aaf8bb610733f8da2e015a48729353ce0fb88.zip instaloader requests pillow
           python parser.file
 
         env:
@@ -65,7 +65,7 @@ jobs:
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/460aaf8bb610733f8da2e015a48729353ce0fb88.zip instaloader requests pillow
           python parser.file
 
         env:
@@ -88,7 +88,7 @@ jobs:
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/460aaf8bb610733f8da2e015a48729353ce0fb88.zip instaloader requests pillow
           python parser.file
 
         env:
@@ -111,7 +111,7 @@ jobs:
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/460aaf8bb610733f8da2e015a48729353ce0fb88.zip instaloader requests pillow
           python parser.file
 
         env:
@@ -134,7 +134,7 @@ jobs:
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/460aaf8bb610733f8da2e015a48729353ce0fb88.zip instaloader requests pillow
           python parser.file
 
         env:
@@ -157,7 +157,7 @@ jobs:
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/460aaf8bb610733f8da2e015a48729353ce0fb88.zip instaloader requests pillow
           python parser.file
 
         env:
@@ -180,7 +180,7 @@ jobs:
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/460aaf8bb610733f8da2e015a48729353ce0fb88.zip instaloader requests pillow
           python parser.file
 
         env:
@@ -203,7 +203,7 @@ jobs:
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/460aaf8bb610733f8da2e015a48729353ce0fb88.zip instaloader requests pillow
           python parser.file
 
         env:
@@ -226,7 +226,7 @@ jobs:
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/460aaf8bb610733f8da2e015a48729353ce0fb88.zip instaloader requests pillow
           python parser.file
 
         env:
@@ -249,7 +249,7 @@ jobs:
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/460aaf8bb610733f8da2e015a48729353ce0fb88.zip instaloader requests pillow
           python parser.file
 
         env:
@@ -272,7 +272,7 @@ jobs:
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/460aaf8bb610733f8da2e015a48729353ce0fb88.zip instaloader requests pillow
           python parser.file
 
         env:
@@ -295,7 +295,7 @@ jobs:
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/460aaf8bb610733f8da2e015a48729353ce0fb88.zip instaloader requests pillow
           python parser.file
 
         env:
@@ -318,7 +318,7 @@ jobs:
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/460aaf8bb610733f8da2e015a48729353ce0fb88.zip instaloader requests pillow
           python parser.file
 
         env:
@@ -341,7 +341,7 @@ jobs:
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/460aaf8bb610733f8da2e015a48729353ce0fb88.zip instaloader requests pillow
           python parser.file
 
         env:
@@ -364,7 +364,7 @@ jobs:
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/460aaf8bb610733f8da2e015a48729353ce0fb88.zip instaloader requests pillow
           python parser.file
 
         env:
@@ -387,7 +387,7 @@ jobs:
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/460aaf8bb610733f8da2e015a48729353ce0fb88.zip instaloader requests pillow
           python parser.file
 
         env:
@@ -410,7 +410,7 @@ jobs:
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/460aaf8bb610733f8da2e015a48729353ce0fb88.zip instaloader requests pillow
           python parser.file
 
         env:
@@ -433,7 +433,7 @@ jobs:
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/460aaf8bb610733f8da2e015a48729353ce0fb88.zip instaloader requests pillow
           python parser.file
 
         env:
@@ -456,7 +456,7 @@ jobs:
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/460aaf8bb610733f8da2e015a48729353ce0fb88.zip instaloader requests pillow
           python parser.file
 
         env:
@@ -479,7 +479,7 @@ jobs:
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/460aaf8bb610733f8da2e015a48729353ce0fb88.zip instaloader requests pillow
           python parser.file
 
         env:
@@ -502,7 +502,7 @@ jobs:
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/460aaf8bb610733f8da2e015a48729353ce0fb88.zip instaloader requests pillow
           python parser.file
 
         env:
@@ -525,7 +525,7 @@ jobs:
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/460aaf8bb610733f8da2e015a48729353ce0fb88.zip instaloader requests pillow
           python parser.file
 
         env:
@@ -548,7 +548,7 @@ jobs:
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/460aaf8bb610733f8da2e015a48729353ce0fb88.zip instaloader requests pillow
           python parser.file
 
         env:
@@ -571,7 +571,7 @@ jobs:
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/460aaf8bb610733f8da2e015a48729353ce0fb88.zip instaloader requests pillow
           python parser.file
 
         env:
@@ -594,7 +594,7 @@ jobs:
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/460aaf8bb610733f8da2e015a48729353ce0fb88.zip instaloader requests pillow
           python parser.file
 
         env:
@@ -617,7 +617,7 @@ jobs:
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/460aaf8bb610733f8da2e015a48729353ce0fb88.zip instaloader requests pillow
           python parser.file
 
         env:
@@ -640,7 +640,7 @@ jobs:
       - name: Run system
         run: |
           python -m pip install --upgrade pip
-          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/e25c523b69e2a30240a9c32be0eeabddea8e2337.zip instaloader
+          pip install https://github.com/python-telegram-bot/python-telegram-bot/archive/460aaf8bb610733f8da2e015a48729353ce0fb88.zip instaloader requests pillow
           python parser.file
 
         env:
